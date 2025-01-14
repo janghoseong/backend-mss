@@ -7,11 +7,16 @@
 
 1. 구현 대상 4건에 대한 REST API(public 저장소로 돼있어서 상세 내용은 생략합니다.)
 2. 브랜드, 상품 각 서비스의 기능 테스트
+   1. ProductServiceTest
+   2. BrandServiceTest
 3. 구현 대상 시나리오의 통합 테스트
+   1. IntegratedTest
 
 ## 실행 환경
-
+- Spring Boot 3.1.1
+- Java 17
 - gradle v8.2 (gradle wrapper)
+- h2 db
 - embedded-redis : 로컬에 openssl 3.x 가 필요합니다. 설치 혹은 실행 시 embedded-redis를 제외하고 실행 할 수 있습니다.
 
 ## openssl 설치(optional)
